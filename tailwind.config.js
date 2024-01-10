@@ -16,9 +16,21 @@ module.exports = {
       // => @media (max-width: 430px) { ... }
     },
     fontFamily:{
-      body: ['Nunito Sans']
+      body: ['Space Mono']
     },
-    extend: {},
+    extend: {
+      colors:{
+        'dark': {
+          'button': ' #0079FF',
+          'notAvailText': '#697C9A',
+          'background': '#141D2F',
+          'main': '#1E2A47',
+        }
+      },
+      fontSize:{
+        'xxsm': '10px'
+      }
+    },
   },
   plugins: [],
 }
