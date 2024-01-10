@@ -6,7 +6,7 @@ function App() {
 
 
   return (
-    <div>
+    <div className=' font-body'>
       <Searchbar />
       <Home />
     </div>
