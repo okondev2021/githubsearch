@@ -9,9 +9,6 @@ View the optimal layout for the app depending on their device's screen size
 See hover states for all interactive elements on the page
 Search for GitHub users by their username
 See relevant user information based on their search
-Switch between light and dark themes
-Bonus: Have the correct color scheme chosen for them based on their computer preferences. Hint: Research prefers-color-scheme in CSS.
-Want some support on the challenge? Join our Slack community and ask questions in the #help channel.
 
 The GitHub users API endpoint is https://api.github.com/users/:username. So, if you wanted to search for the Octocat profile, you'd be able to make a request to https://api.github.com/users/octocat.
 
@@ -26,19 +23,45 @@ Website, twitter, and company information should all be links to those resaource
 
 
 
+<section>
 
-
-
-
-:root {
-  --lm-bg: #f6f8ff;
-  --lm-bg-content: #fefefe;
-  --lm-text: #4b6a9b;
-  --lm-text-alt: #2b3442;
-  --lm-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
-  --lm-shadow-inactive: 0px 16px 30px -10px rgba(0, 0, 0, 0.2);
-  --lm-icon-bg: brightness(100%);
-  /* Btn */
-  --btn: #0079ff;
-  --btn-hover: #60abff;
-}
+            </section>
+            <section>
+                <header>
+                    <div></div>
+                    <div></div>
+                </header>
+                <p></p>
+                <div>
+                    <div>
+                        <span></span>
+                        <h1></h1>
+                    </div>
+                    <div>
+                        <span></span>
+                        <h1></h1>
+                    </div>
+                    <div>
+                        <span></span>
+                        <h1></h1>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="" alt="" />
+                        <h2></h2>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <h2></h2>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <h2></h2>
+                    </div>
+                    <div>
+                        <img src="" alt="" />
+                        <h2></h2>
+                    </div>
+                </div>
+            </section>
