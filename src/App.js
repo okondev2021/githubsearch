@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className=' font-body bg-dark-background min-h-screen h-full flex justify-center items-center'>
-      <main className='w-[45%] mobile:w-[85%] mobile:py-6 mobile:min-h-full'>
+      <main className='w-[45%] mobile:w-[85%] tab:w-[70%] mobile:py-6 mobile:min-h-full'>
         <Header/>
         <Searchbar func={getUserDetail} />
         <Home fetchedResult={fetchedData} />

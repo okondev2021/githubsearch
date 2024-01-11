@@ -12,7 +12,7 @@ module.exports = {
       // => @media (max-width: 1030px) { ... }
       'tab': {'max': '790px'},
       // => @media (max-width: 1030px) { ... }
-      'mobile': {'max': '430px'},
+      'mobile': {'max': '500px'},
       // => @media (max-width: 430px) { ... }
     },
     fontFamily:{
