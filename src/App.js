@@ -18,15 +18,24 @@ function App() {
     fetchDefault()
   }, [])
 
-  console.log(fetchedData)
+
+  const getUserDetail = (val) => {
+     fetch(`https://api.github.com/users/${val}`)
+    .then(response => response.json())
+    .then(data => {
+      setFetchedData(data)
+    })
+  }
+
+
 
 
 
   return (
     <div className=' font-body bg-dark-background min-h-screen h-full flex justify-center items-center'>
-      <main className='w-[40%]'>
+      <main className='w-[45%] mobile:w-[85%] mobile:py-6 mobile:min-h-full'>
         <Header/>
-        <Searchbar />
+        <Searchbar func={getUserDetail} />
         <Home fetchedResult={fetchedData} />
       </main>
     </div>
